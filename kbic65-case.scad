@@ -75,6 +75,11 @@ module keyarea() {
     }
 }
 
+module screws() {
+        translate([-0.938,-5.700])
+            circle
+}
+
 module window() {
     // Define window size and placement
     translate([0,5*u+key_to_window_margin,0])
